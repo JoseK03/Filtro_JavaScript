@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-moradoClaro: hsl(270, 76%, 48%) ;
+    --color-moradoMedio: hsl(265, 96%, 28%) ;
+    --color-moradoOscuro:hsl(225, 97%, 13%);
+    --color-naranja:hsl(16, 90%, 50%)  ;
+    --color-azulClaro:  hsl(199, 24%, 50%) ;
+    --color-azulNeon:hsl(177, 100%, 67%);
+    --color-amarillo:hsl(35, 99%, 53%);
+    --color-gris:  hsl(180, 4%, 73%) ;
+    --color-negro: hsl(0, 0%, 5%);
+}
+body{
+    
+    background-image: url(/img/foondoo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+        
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 600px;
+    width:100%;
+    
+}
+.todoSesion{
+    width: 50%;
+    padding: 10px;
+}
+.todoSesion h1{
+    font-size: 40px;
+    color: var(--color-azulNeon);
+    margin: 0;
+    
+}
+.todoSesion p{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.botones{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    
+}
+.botones button{
+    font-size: 20px;
+    color: white; 
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.botones button:hover{
+    color: var(--color-moradoClaro);
+    border: 2px solid var(--color-moradoClaro);
+    border-radius: 15px;
+
+}
